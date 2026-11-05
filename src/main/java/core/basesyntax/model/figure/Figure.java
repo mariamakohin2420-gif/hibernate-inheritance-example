@@ -7,9 +7,6 @@ import jakarta.persistence.MappedSuperclass;
 
 @MappedSuperclass
 public class Figure {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
     private String color;
 
     public String getColor() {
